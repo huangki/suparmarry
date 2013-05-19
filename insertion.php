@@ -34,12 +34,14 @@ $c=$_POST['TimeArrive'];
 $d=$_POST['SpendTime'];
 $e=$_POST['name'];
 $e=iconv("UTF-8","big5",$e);
+//先透過 iconver 先行轉換 
 $f=$_POST['sex'];
 $g=$_POST['tpyesofgame'];
 
 $sql = "INSERT into demorun(SEQ,ID,ATIME,TIME,NAME,GENDER,CAT) Values ('$a','$b','$c','$d','$e','$f','$g')";
 mysql_query("SET NAMES BIG5");
-mysql_query("SET CHARACTER_SET utf8");
+//mysql_query("SET CHARACTER_SET utf8");
+//強制資料庫  進行編碼轉換  因為 一般WINDOWS作業系統  預設都是BIG5
 mysql_query($sql,$link);
 mysql_close($link);
 ?>
