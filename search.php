@@ -1,6 +1,35 @@
-﻿<title>超馬選手查詢</title>
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Runners Records  by SooChow</title>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+</head>
+<body>
+<div id="wrapper">
+  <div id="menu-wrapper">
+    <div id="menu" class="container">
+      <ul>
+        <li class="current_page_item"><a href="index.php">Homepage</a></li>
+        <li><a href="#">About Race</a></li>
+        <li><a href="#">Downlaod App</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="logo" class="container">
+    <h1><a href="#">Runners Records</a></h1>
+    <p>Soochow international ultra-marathon</p>
+  </div>
+<title>超馬選手查詢</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-
+ 
 <form action="search.php">第
 <select name="day">
  <option>1</option>
@@ -32,8 +61,8 @@
 </select>
 
 <input type="submit" value="確定"
-       style="color: #FFFFFF; font-size: 12pt;
-       background-color: #FF8901" /><br>
+       style="color: #FFFFFF; font-size: 8pt;
+       background-color: #000000" /><br>
 	   </form>
 <form action="search.php">第
 <select name="dayall">
@@ -53,8 +82,8 @@
  <option>14</option>
 </select> 天總表排名
 <input type="submit" value="確定"
-       style="color: #FFFFFF; font-size: 12pt;
-       background-color: #FF8901" /><br>
+       style="color: #FFFFFF; font-size: 8pt;
+       background-color: #000000" /><br>
 	   </form>
 
 <?php
@@ -99,6 +128,7 @@ $link_ID = mysql_connect("127.0.0.1","root","1111");
 mysql_select_db("fj");  
 mysql_query("SET NAMES BIG5");
 //mysql_query("SET CHARACTER_SET utf8");
+ 
 $result = mysql_query($str,$link_ID);  
 $sn_index = mysql_num_rows($result); //查詢結果的記錄筆數（rows）
 
@@ -108,7 +138,7 @@ $sn_index = mysql_num_rows($result); //查詢結果的記錄筆數（rows）
 <h2 align="center">選手排名</h2>
  
 <br><br><br>
-<TABLE ALIGN=center BORDER=5 >
+<TABLE ALIGN=center BORDER=1 >
 <TR ALIGN =CENTER>
 <TD>
 排名

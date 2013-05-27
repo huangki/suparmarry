@@ -10,6 +10,7 @@ Version    : 1.0
 Released   : 20130406
 
 -->
+<meta name="viewport" width=device-width, initial-scale=1.0″>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="keywords" content="" />
@@ -24,11 +25,11 @@ Released   : 20130406
 	<div id="menu-wrapper">
 		<div id="menu" class="container">
 			<ul>
-				<li class="current_page_item"><a href="#">Homepage</a></li>
-				<li><a href="#">About Race</a></li>
-				<li><a href="#">Downlaod App</a></li>
+				<li class="current_page_item"><a href="index.php">Homepage</a></li>
+				<li><a href="cc.php">About Race</a></li>
+				<li><a href="cc.php">Downlaod App</a></li>
 				<li><a href="#">Photos</a></li>
-				<li><a href="#">About Us</a></li>
+				<li><a href="load.php">About Us</a></li>
 				<li><a href="#">Links</a></li>
 				<li><a href="#">Contact Us</a></li>
 			</ul>
@@ -72,7 +73,7 @@ Released   : 20130406
 					<div class="image"><img src="images/img03.jpg" width="324" height="200" alt="" /></div>
 					<h2>All Records </h2>
 					<p>列表全部選手的成績</p>
-					<a href="#" class="button">More</a>
+					<a href="doublesearchm.php"  class="button">More</a>
 				</div>
 			</div>
 		</div>

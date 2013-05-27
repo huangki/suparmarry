@@ -1,6 +1,33 @@
-﻿ <head>
-
-
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Runners Records  by SooChow</title>
+<link href="http://fonts.googleapis.com/css?family=Oxygen:400,700,300" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+ 
+</head>
+<body>
+<div id="wrapper">
+  <div id="menu-wrapper">
+    <div id="menu" class="container">
+      <ul>
+        <li class="current_page_item"><a href="index.php">Homepage</a></li>
+        <li><a href="insert.php">繼續新增</a></li>
+        <li><a href="#">Downlaod App</a></li>
+        <li><a href="#">Photos</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="logo" class="container">
+    <h1><a href="#">Runners Records</a></h1>
+    <p>Soochow international ultra-marathon</p>
+  </div>
+ 
 <style type=text/css>
 <!--
 body{
@@ -24,6 +51,7 @@ background-repeat:no-repeat;}
 </font>
 </body>
 <?php
+
 $link = mysql_connect("127.0.0.1","root","1111");
 
 mysql_select_db("fj",$link);
