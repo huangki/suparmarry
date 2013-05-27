@@ -28,7 +28,7 @@ Released   : 20130406
 				<li class="current_page_item"><a href="index.php">Homepage</a></li>
 				<li><a href="cc.php">About Race</a></li>
 				<li><a href="cc.php">Downlaod App</a></li>
-				<li><a href="#">Photos</a></li>
+				<li><a href="photo.html">Photos</a></li>
 				<li><a href="load.php">About Us</a></li>
 				<li><a href="#">Links</a></li>
 				<li><a href="#">Contact Us</a></li>
@@ -95,7 +95,7 @@ Released   : 20130406
 					<div class="image"><img src="images/img05.jpg" width="324" height="200" alt="" /></div>
 					<h2>Facebook</h2>
 					<p>超馬部落格 </p>
-					<a href="#" class="button">More</a>
+					<a href="fb.php" class="button">More</a>
 				</div>
 			</div>
 		</div>

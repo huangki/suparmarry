@@ -95,10 +95,10 @@ $tt ++;
 <TD WIDTH = 120><?echo $e;?></TD> 
 <TD WIDTH = 120><?echo $f;  $se=$f;?></TD> 
 <TD>
-<form   action="paper.php" >
+<form   action="doublem.php" >
 <input type="hidden" name="q"  value="<?php echo $c?>">
-<input type="hidden" name="w"  value="<?php echo $e?>">
-<input type="hidden" name="r"  value="<?php echo $d?>">
+<input type="hidden" name="w"  value="<?php echo $b?>">
+<input type="hidden" name="r"  value="<?php echo $f?>">
 <input type="hidden" name="t"  value="<?php echo $day.$bb?>">
 <input type="hidden" name="rank"  value="<?php echo $ll?>">
 <input type="hidden" name="RACE"  value="<?php echo $ca?>">
